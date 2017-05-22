@@ -15,12 +15,12 @@ class Cal_AAC:
         s="ARNDCQEGHILKMFPSTWYVx"
         f=open("window.txt","r")
         lines = f.readlines()
-        for str in lines:
+        for str1 in lines:
             cou = [0 for x in range(21)]
-            leng=len(str)
+            leng=len(str1)
             for i in range(leng):
                 for j in range(21):
-                    if (str[i] == s[j]):
+                    if (str1[i] == s[j]):
                         break
                 cou[j]=cou[j]+1
             #k=1
