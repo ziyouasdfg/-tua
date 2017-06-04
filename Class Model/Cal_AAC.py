@@ -24,7 +24,7 @@ class Cal_AAC:
                         break
                 cou[j] = cou[j] + 1
             # k=1
-            for k in range(0,20):
+            for k in range(0,21):
                 print('%.6f'%(cou[k] / leng),end='')
             print("\n")
         return (0)
